@@ -2,7 +2,6 @@
 **Service Name:** checkout-orders-service  
 **API Version:** 1.1.0  
 **Base Path:** `/v1`
-
 **Last Updated:** 2026-02-05
 
 
