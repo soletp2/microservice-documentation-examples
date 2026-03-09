@@ -20,7 +20,7 @@ This service exposes:
 ### Endpoints
 
 | Endpoint | Auth | Responsibility |
-|---|---:|---|
+|---|---|---|
 | `POST /checkout` | Bearer JWT | Validate cart and create checkout session with payment client secret |
 | `GET /orders` | Bearer JWT | Return paginated list of current user’s orders |
 | `GET /orders/{orderId}` | Bearer JWT | Return order details (ownership enforced) |
@@ -40,7 +40,7 @@ All errors use:
     { "field": "items[0].sku", "issue": "must not be empty" }
   ]
 }
-````
+```
 
 
 ## Dependencies
@@ -326,7 +326,7 @@ docker --version
 docker compose version
 java -version
 mvn -version
-````
+```
 
 ### Configure Environment Variables
 
